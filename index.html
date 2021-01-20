@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Ejercicio JUEGO</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+     
+
+    </head>
+    <body id="page-top" class="bg-light">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+               
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-dark rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#juego">Juego</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead text-black text-center"></header>
+            <div class="container d-flex align-items-center flex-column" >
+               
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/portfolio/slide1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h2>La Tierra Media</h2>
+                          <h5>Tu juego del señor de los anillos en JavaScript</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/portfolio/slide2.jpg" class="d-block w-100" height="398"alt="...">
+                       
+                      </div>
+                        <div class="carousel-item">
+                            <img src="./img/portfolio/slide3.jfif" class="d-block w-100" alt="...">
+                        
+                        </div>
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="juego">
+			 
+			  <div class="divider-custom">
+			  </div>
+		<div class="container">
+				<!-- Portfolio Section Heading-->
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0">Elija el Ejercicio</h3>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row">
+                    
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-12 col-lg-12">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-play"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/buttonplay.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                                   
+                        <div id="space"></div>
+                       <h3> <div id="create"></div></h3>
+                       <h4> <div id="name"></div>
+                        <div id="raza"></div>
+                        <div id="point"></div></h4>
+                        <div id="space">
+                        </div>
+                     
+                        <div class="divider-custom">
+                        
+                            <div class="divider-custom-line"></div>
+                        </div>    
+                        
+                        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-dark rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" disabled id="botonJugar" type="button" onclick="jugar();" value="Jugar" >Jugar</button>
+                    </div>
+                   
+
+                    <div id="fila1"></div>
+
+                </div>
+            </div>
+        </section>
+        
+  
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                      
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h5 class="text-uppercase mb-4">Conecta con nosotros</h5>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                       
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                      
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Ramón Sola Rodriguez 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals-->
+      
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Opciones</h2>
+                                                 
+                                            <!-- Divider-->
+                                                 <div class="divider-custom"></div>
+                                    <form name="formGame">
+                                    <label for="personaje"> Nombre del personaje: </label>
+                                    <input type="text" id="personaje">
+                                    <label for="raza">Raza:</label>
+                                    
+                                    <select id="raza"> 
+                                        <option value="hombre">Hombres
+                                        <option value="elfo">Elfos
+                                        <option value="enano">Enanos
+                                        <option value="orco">Orcos
+                                        <option value="trasgo">Trasgos
+                                        <option value="uruk">Urusk-Hai
+                                    </select> 
+                                                                   
+                                    <input type="button" onclick="registrar();" value="Registar"/>
+                                    </form>      
+                                             
+                                       
+
+                                    <!-- Divider-->
+                                    <div class="divider-custom">
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="img/portfolio/mapa.JPG" alt="" />
+                                    <input disabled id="botonCrear" type="button" onclick="crear();" value="Crear Partida">
+		
+                                    <br><br><br><br><br><br>
+                                    
+                                    <table id="tabla" border="1" align="center">
+                                    <tr>
+                                        <td style="width:100px; height: 100px"></td>
+                                        <td style="width:100px;height: 100px"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:100px;height: 100px"></td>
+                                        <td style="width:100px;height: 100px"></td>
+                                    </tr>
+                                    </table>
+                                    
+                                    <br><br>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+           
+       
+
+
+
+		
+ <!--  <script>
+    $(document).ready(function() {
+      //$(".dial").knob();
+      $('.dial').knob({
+        'min':0,
+        'max':100,
+        'width':250,
+        'height':250,
+        'displayInput':true,
+        'fgColor':"#e74c3c",
+        'release':function(v) {$("p").text(v);},
+        'readOnly':true
+      });
+    });
+  </script> -->
+  <style>
+    .container{
+      margin:0 auto;
+      text-align: center
+    }
+    h1{
+      font-family: 'raleway';
+      font-size:40px;
+      margin-bottom: 100px;
+    }
+  </style>
+		
+<!-- 		<script src="js/jquery.js"></script>
+  <script src="js/jquery.knob.js"></script> -->
+	   <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/mainscripts.js"></script>
+    </body>
+</html>
